@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    height: 5rem;
+    align-items: center;
+}
+
+.navLink,
+.logo {
+    font-size: 1.5rem;
+}
+
+.appName {
+    flex: 1;
+}
+
+.navLink:nth-child(2) {
+    margin: 0 2rem;
+}
+
+.links {
+    margin-left: 2rem;
+}
+
+@media screen and (max-width: 540px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .links {
+        margin-left: 0px;
+    }
+}

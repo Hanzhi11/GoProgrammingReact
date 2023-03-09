@@ -1,0 +1,17 @@
+.name {
+    font-size: 2rem;
+}
+
+.name:nth-child(odd) {
+background-color: grey;
+}
+
+.list {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.noRecord {
+    font-size: 2rem;
+    text-align: center;
+}

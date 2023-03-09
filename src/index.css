@@ -1,0 +1,22 @@
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  border-bottom: solid 0.2rem black;
+  padding-bottom: 0.5rem;
+}
+
+#root {
+  min-width: 375px;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+}
+
+@media screen and (max-width: 540px){
+  h1{
+    font-size: 3rem;
+  }
+}
+

@@ -1,0 +1,42 @@
+.image {
+  width: 15rem;
+  height: 15rem;
+}
+
+.image:hover {
+  filter: drop-shadow(0 0 1em #646cffaa);
+}
+
+.images {
+  display: grid;
+  grid-template-areas: "a a a a";
+  place-items: center;
+}
+
+.card {
+  margin: 0 2px;
+}
+
+@media screen and (max-width: 1035px) {
+  .images {
+    display: grid;
+    grid-template-areas: "a a a";
+    place-items: center;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .images {
+    display: grid;
+    grid-template-areas: "a a";
+    place-items: center;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .images {
+    display: grid;
+    grid-template-areas: "a";
+    place-items: center;
+  }
+}
